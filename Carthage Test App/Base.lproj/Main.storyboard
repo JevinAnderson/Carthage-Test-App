@@ -30,11 +30,20 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="46" placeholderIntrinsicHeight="30" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HS6-fs-iiO">
+                                <rect key="frame" x="184" y="153.5" width="46" height="30"/>
+                                <state key="normal" title="Action"/>
+                                <connections>
+                                    <action selector="onClick:forEvent:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NZ1-nv-uPR"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="4j6-x2-Bf7" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="0yb-9s-NoI"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="4j6-x2-Bf7" secondAttribute="trailing" constant="30" id="APu-dS-bdQ"/>
+                            <constraint firstItem="HS6-fs-iiO" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="BQg-EF-Iji"/>
+                            <constraint firstItem="HS6-fs-iiO" firstAttribute="top" secondItem="MA8-oH-fAY" secondAttribute="bottom" constant="20" id="GKO-ys-8aq"/>
                             <constraint firstItem="4j6-x2-Bf7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="TN8-i5-zgk"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="MA8-oH-fAY" secondAttribute="trailing" constant="20" id="VTl-z7-WJ5"/>
                             <constraint firstItem="MA8-oH-fAY" firstAttribute="top" secondItem="4j6-x2-Bf7" secondAttribute="bottom" constant="20" id="eQO-m3-oaM"/>

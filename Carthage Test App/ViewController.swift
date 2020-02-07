@@ -21,9 +21,15 @@ class ViewController: UIViewController {
     super.viewDidLoad()
     // Do any additional setup after loading the view.
     header.text = "Hello Jevin, and World!"
+    randomizeDetails()
+  }
+  
+  func randomizeDetails() {
     details.text = "Random content: \(randomString(Int.random(in: 100...1000)))"
   }
-
-
+  
+  @IBAction func onClick(_ sender: UIButton, forEvent event: UIEvent) {
+    randomizeDetails()
+  }
 }
 
