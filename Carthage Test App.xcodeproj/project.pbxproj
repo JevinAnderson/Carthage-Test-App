@@ -12,7 +12,7 @@
 		65B52B1723EDFCA500492CDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65B52B1523EDFCA500492CDF /* Main.storyboard */; };
 		65B52B1923EDFCA600492CDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65B52B1823EDFCA600492CDF /* Assets.xcassets */; };
 		65B52B1C23EDFCA600492CDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65B52B1A23EDFCA600492CDF /* LaunchScreen.storyboard */; };
-		65B52B2523EE1A0100492CDF /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65B52B2423EE1A0100492CDF /* AFNetworking.framework */; };
+		65B52B2923EE20F600492CDF /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65B52B2823EE20F600492CDF /* Alamofire.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +23,7 @@
 		65B52B1823EDFCA600492CDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		65B52B1B23EDFCA600492CDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		65B52B1D23EDFCA600492CDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		65B52B2423EE1A0100492CDF /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = Carthage/Build/iOS/AFNetworking.framework; sourceTree = "<group>"; };
+		65B52B2823EE20F600492CDF /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,7 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65B52B2523EE1A0100492CDF /* AFNetworking.framework in Frameworks */,
+				65B52B2923EE20F600492CDF /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,7 +71,7 @@
 		65B52B2323EE1A0100492CDF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				65B52B2423EE1A0100492CDF /* AFNetworking.framework */,
+				65B52B2823EE20F600492CDF /* Alamofire.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -153,12 +153,12 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/AFNetworking.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
 			);
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/AFNetworking.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Alamofire.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
