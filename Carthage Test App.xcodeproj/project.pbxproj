@@ -13,6 +13,7 @@
 		65B52B1923EDFCA600492CDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65B52B1823EDFCA600492CDF /* Assets.xcassets */; };
 		65B52B1C23EDFCA600492CDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65B52B1A23EDFCA600492CDF /* LaunchScreen.storyboard */; };
 		65B52B2923EE20F600492CDF /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65B52B2823EE20F600492CDF /* Alamofire.framework */; };
+		65B52B5C23EE334A00492CDF /* Carthage_Test_Framework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65B52B5B23EE334A00492CDF /* Carthage_Test_Framework.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		65B52B1B23EDFCA600492CDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		65B52B1D23EDFCA600492CDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65B52B2823EE20F600492CDF /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		65B52B5B23EE334A00492CDF /* Carthage_Test_Framework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carthage_Test_Framework.framework; path = Carthage/Build/iOS/Carthage_Test_Framework.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +34,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				65B52B2923EE20F600492CDF /* Alamofire.framework in Frameworks */,
+				65B52B5C23EE334A00492CDF /* Carthage_Test_Framework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +74,7 @@
 		65B52B2323EE1A0100492CDF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				65B52B5B23EE334A00492CDF /* Carthage_Test_Framework.framework */,
 				65B52B2823EE20F600492CDF /* Alamofire.framework */,
 			);
 			name = Frameworks;
@@ -154,11 +158,13 @@
 			);
 			inputPaths = (
 				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Carthage_Test_Framework.framework",
 			);
 			outputFileListPaths = (
 			);
 			outputPaths = (
 				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Alamofire.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Carthage_Test_Framework.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
